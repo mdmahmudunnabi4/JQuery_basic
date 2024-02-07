@@ -27,3 +27,16 @@ $("#p6").before(myPara7)
 
 $("a").attr("href", "https://www.studywithanis .com")
 
+
+// css style manipulating
+
+$('h2').css("color", "red")
+$("h2").css("font-size", "50px")
+$("h2").css("font-style", "italic")
+
+$("h3").css({"color":"green", "font-size": "40px"})
+
+// document.querySelector("h4").classList.add("style1")
+// document.querySelector("h4").classList.remove("style1")
+
+$("h4").addClass("style1 style2")
